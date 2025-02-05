@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+    background-color: #3065c6;
+    color: #fff;
+    font-weight: bold;
+}
+
+header h1, button{
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+#abre-tarefas {
+    background-color: #3cff52;
+    padding: 8px;
+}
+
+#abre-tarefas:hover {
+    background-color: #29b53a;
+    cursor: pointer;
+}
+
+form {
+    display: none;
+    padding: 30px;
+    background-color: #97b3e5;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: solid black;
+}
+
+form input, button {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+#btn-adicionar {
+    background-color: #3cff52;
+    cursor: pointer;
+}
+
+#btn-limpar {
+    background-color: #c73f3f;
+    cursor: pointer;
+}
+
+#btn-adicionar:hover {
+    background-color: #29b53a;
+}
+
+#btn-limpar:hover {
+    background-color: #b91919;
+}
+
+ul li { 
+    padding: 16px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+ul li:hover {
+    background-color: #e0ebff;
+}
+
+.rabiscado {
+    text-decoration:line-through;
+
+}
